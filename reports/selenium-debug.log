@@ -1,44 +1,32 @@
-13:47:03.730 INFO - Launching a standalone Selenium Server
+14:14:39.840 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to ./node_modules/chromedriver/lib/chromedriver/chromedriver
-13:47:03.766 INFO - Java: Oracle Corporation 25.101-b13
-13:47:03.766 INFO - OS: Mac OS X 10.11.5 x86_64
-13:47:03.777 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
-13:47:03.850 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+14:14:39.877 INFO - Java: Oracle Corporation 25.101-b13
+14:14:39.877 INFO - OS: Mac OS X 10.11.5 x86_64
+14:14:39.889 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+14:14:39.966 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-13:47:03.850 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+14:14:39.966 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-13:47:03.851 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-13:47:03.851 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-13:47:03.853 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-13:47:03.854 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-13:47:03.917 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5555/wd/hub
-13:47:03.917 INFO - Selenium Server is up and running
-13:47:04.208 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-13:47:04.219 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0) on port 41458
+14:14:39.967 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:14:39.967 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:14:39.969 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+14:14:39.970 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+14:14:40.034 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5555/wd/hub
+14:14:40.034 INFO - Selenium Server is up and running
+14:14:40.328 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Visit Scotland, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+14:14:40.339 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Visit Scotland, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0) on port 6378
 Only local connections are allowed.
-13:47:05.418 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-13:47:05.440 INFO - Executing: [get: http://www.google.com])
-13:47:06.554 INFO - Done: [get: http://www.google.com]
-13:47:06.563 INFO - Executing: [find elements: By.cssSelector: body])
-13:47:06.602 INFO - Done: [find elements: By.cssSelector: body]
-13:47:06.608 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fca386f167655fbcc2049b12d8404cb)] -> css selector: body]])
-13:47:06.622 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (3fca386f167655fbcc2049b12d8404cb)] -> css selector: body]]
-13:47:06.628 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-13:47:06.648 INFO - Done: [find element: By.cssSelector: input[type=text]]
-13:47:06.652 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (3fca386f167655fbcc2049b12d8404cb)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
-13:47:06.750 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (3fca386f167655fbcc2049b12d8404cb)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
-13:47:06.763 INFO - Executing: [find elements: By.cssSelector: button[name=btnG]])
-13:47:06.823 INFO - Done: [find elements: By.cssSelector: button[name=btnG]]
-13:47:06.827 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (3fca386f167655fbcc2049b12d8404cb)] -> css selector: button[name=btnG]]])
-13:47:06.845 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (3fca386f167655fbcc2049b12d8404cb)] -> css selector: button[name=btnG]]]
-13:47:06.850 INFO - Executing: [find element: By.cssSelector: button[name=btnG]])
-13:47:06.887 INFO - Done: [find element: By.cssSelector: button[name=btnG]]
-13:47:06.894 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (3fca386f167655fbcc2049b12d8404cb)] -> css selector: button[name=btnG]]])
-13:47:06.957 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (3fca386f167655fbcc2049b12d8404cb)] -> css selector: button[name=btnG]]]
-13:47:07.971 INFO - Executing: [find element: By.cssSelector: #main])
-13:47:08.057 INFO - Done: [find element: By.cssSelector: #main]
-13:47:08.062 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (3fca386f167655fbcc2049b12d8404cb)] -> css selector: #main]])
-13:47:08.512 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (3fca386f167655fbcc2049b12d8404cb)] -> css selector: #main]]
-13:47:08.519 INFO - Executing: [delete session: af0fed84-a125-413c-80a7-049ce3b9e200])
-13:47:08.595 INFO - Done: [delete session: af0fed84-a125-413c-80a7-049ce3b9e200]
+14:14:41.528 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Visit Scotland, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+14:14:41.545 INFO - Executing: [get: http://www.visitscotland.com])
+14:14:45.197 INFO - Done: [get: http://www.visitscotland.com]
+14:14:45.210 INFO - Executing: [find elements: By.cssSelector: body])
+14:14:45.540 INFO - Done: [find elements: By.cssSelector: body]
+14:14:45.547 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (e42e01ad3e64145622ca038f5fcf8637)] -> css selector: body]])
+14:14:45.758 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (e42e01ad3e64145622ca038f5fcf8637)] -> css selector: body]]
+14:14:46.772 INFO - Executing: [find element: By.cssSelector: .title])
+14:14:46.789 INFO - Done: [find element: By.cssSelector: .title]
+14:14:46.792 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on MAC (e42e01ad3e64145622ca038f5fcf8637)] -> css selector: .title]])
+14:14:46.812 INFO - Done: [get text: 1 [[ChromeDriver: chrome on MAC (e42e01ad3e64145622ca038f5fcf8637)] -> css selector: .title]]
+14:14:46.816 INFO - Executing: [delete session: 23fb8e39-a17f-4753-b4fd-056fc99cd0fe])
+14:14:46.901 INFO - Done: [delete session: 23fb8e39-a17f-4753-b4fd-056fc99cd0fe]
