@@ -1,0 +1,16 @@
+{
+  "name": "nightwatch_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.7",
+    "selenium-server": "^2.53.1",
+    "selenium-standalone": "^5.5.0"
+  }
+}
