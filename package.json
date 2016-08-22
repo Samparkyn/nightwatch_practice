@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chromedriver": "^2.23.1",
     "nightwatch": "^0.9.7",
     "selenium-server": "^2.53.1",
     "selenium-standalone": "^5.5.0"

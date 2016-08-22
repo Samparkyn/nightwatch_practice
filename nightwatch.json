@@ -9,11 +9,11 @@
   "selenium" : {
     "start_process" : true,
     "server_path" : "./node_modules/selenium-server/lib/runner/selenium-server-standalone-2.53.1.jar",
-    "log_path" : "",
-    "host" : "127.0.0.1",
-    "port" : 4444,
+    "log_path" : "reports",
+    "host" : "localhost",
+    "port" : 5555,
     "cli_args" : {
-      "webdriver.chrome.driver" : "",
+      "webdriver.chrome.driver" : "./node_modules/chromedriver/lib/chromedriver/chromedriver",
       "webdriver.ie.driver" : ""
     }
   },
@@ -21,7 +21,7 @@
   "test_settings" : {
     "default" : {
       "launch_url" : "http://localhost",
-      "selenium_port"  : 4444,
+      "selenium_port"  : 5555,
       "selenium_host"  : "localhost",
       "silent": true,
       "screenshots" : {
@@ -29,7 +29,7 @@
         "path" : ""
       },
       "desiredCapabilities": {
-        "browserName": "firefox",
+        "browserName": "chrome",
         "javascriptEnabled": true,
         "acceptSslCerts": true
       }
