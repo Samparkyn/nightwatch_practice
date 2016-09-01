@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="3">
 
   <testsuite name="visitScotland"
     errors="0" failures="0" hostname="" id="" package="visitScotland" skipped="0"
-    tests="1" time="6.794" timestamp="Mon, 22 Aug 2016 13:14:40 GMT">
+    tests="3" time="28.32" timestamp="Tue, 23 Aug 2016 16:58:54 GMT">
   
-    <testcase name="Demo test VisitScotland" time="6.794" assertions="2">
+    <testcase name="Test log in button works " time="9.220" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test language button works " time="6.922" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test community button works " time="12.17" assertions="3">
+
+    
 
     
 
